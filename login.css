@@ -1,0 +1,36 @@
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #e6f2f2;
+}
+h1{
+    text-align: center;
+    color: orange;
+}
+.main{
+    flex: 1;
+}
+.login{
+    text-align: center;
+    width: 50%;
+    padding: 40px;
+    color: orange;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    height: 200px;
+    margin-left: 420px;
+}
+.login h2{
+    color: orange;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}

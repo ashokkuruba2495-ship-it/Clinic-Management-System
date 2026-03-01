@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9ff;
+}
+
+.about {
+    width: 80%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.about h1 {
+    text-align: center;
+    color: #003366;
+}
+
+.about h2 {
+    color: #0055aa;
+    margin-top: 20px;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+.about ul {
+    margin-top: 10px;
+}
+button{
+   display: inline-block;
+    margin: 20px;
+    padding: 10px 30px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: large;
+}

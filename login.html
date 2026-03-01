@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+<div class="main">
+    <h1>AR Hospital</h1>
+
+    <div class="login">
+        <h2>Login Page</h2>
+
+        <label>Username:</label>
+        <input type="text" id="username" placeholder="Enter your Username"><br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password" placeholder="Enter your Password"><br><br>
+
+        
+        <button onclick="loginSuccess()">Login</button><br><br>
+
+        <h4>New to ARH?
+            <a href="signup.html">
+                <button type="button">Signup</button>
+            </a>
+        </h4>
+    </div>
+</div>
+
+<footer>
+    <div class="section">
+        <section class="contact">
+            <h4>Contact Us:</h4>
+            <p>Email: ✉️ support@arh.com</p>
+            <p>Phone: 📞 +91 8328169359</p>
+        </section>
+
+        <section class="copy">
+            <p>© 2026 AR Hospital. All Rights Reserved.</p>
+        </section>
+    </div>
+</footer>
+
+<script>
+function loginSuccess() {
+
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    if(username === "ashokkuruba2495@gmail.com" && password === "Ashok@2495") {
+        alert("Login Successful!");
+        window.location.href = "home.html";   
+    } else {
+        alert("Please enter Username and Password!");
+    }
+
+}
+</script>
+
+</body>
+</html>
